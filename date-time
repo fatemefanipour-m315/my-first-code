@@ -1,0 +1,11 @@
+import random
+girls=["sara","fateme","nafas","hasti","atefe"]
+boys=["ali","hamed","reza","moein","mohammad"]
+date=["1404/10/2","1404/10/3","1404/10/15","1404/10/20","1404/9/29"]
+
+random.shuffle(girls)
+random.shuffle(boys)
+random.shuffle(date)
+
+for i in range(5):
+    print(girls[i],"❤️"," ",boys[i]," and date: ",date[i])
